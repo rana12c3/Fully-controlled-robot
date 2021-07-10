@@ -1,0 +1,222 @@
+    *{
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        body{
+            
+               background-image:url(https://a-static.besthdwallpaper.com/lrwbwt-walloaoer-ultrahd-khalfia-1920x1080-53694_48.jpg);
+    background-size: 110% 110%;
+            
+
+} 
+.navbar{
+    background-color:none;
+    direction:rtl;
+    text-align: right;
+    
+    
+}
+.navbar-list{
+    list-style: none;
+   
+}
+.navbar-item{
+    display: inline-block;
+    width: 8rem;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    transition: 0.3s;
+    
+}
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+    
+}
+.navbar-item:hover{
+    background-color:#3366ff;
+    transition: 0.3s;
+         width:200px;
+  margin: auto;
+  border: 1px solid #3366ff;
+}
+
+
+
+
+
+.button{
+   border: 1px solid white;
+     width: 10%;
+    border-radius: 11px;
+    background: none;
+    padding: 10px 20px;
+    font-family:monospace;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+     font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg ,#e6e6ff, #3333ff );
+    
+}
+
+        .button:hover{
+            transform: scale(1.09);
+            background:linear-gradient(to right, rgba(255,0,0,0), rgba(255,225,51));
+            box-shadow: 0 5px 10px rgba(0 , 0, 0, 0.15);
+        }
+
+
+.main{
+    
+    color:cornsilk;
+    width: 50%;
+       margin: 2% ;
+    position: relative;
+    
+ 
+}
+
+.motor2{
+    color:cornsilk;
+    width: 50%;
+     margin: 2% ;
+    position: relative;
+}
+.motor3{
+    color:cornsilk;
+    width: 50%;
+     margin: 2% ;
+    position: relative;
+}
+.motor4{
+    color:cornsilk;
+    width: 50%;
+     margin: 2% ;
+    position: relative;
+}
+.motor5{
+    color:cornsilk;
+    width: 50%;
+     margin: 2% ;
+    position: relative;
+}
+.motor6{
+    color:cornsilk;
+    width: 50%;
+         margin: 2%;
+    position: relative;
+}
+#slider{
+    -wedkit-appearance: none;
+    width: 50%;
+    height: 10px;
+    outline: none;
+    border-radius: 5px;
+    
+}
+#motoor2{
+    -wedkit-appearance: none;
+    width: 50%;
+    height: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+#motoor3{
+    -wedkit-appearance: none;
+    width: 50%;
+    height: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+#motoor4{
+    -wedkit-appearance: none;
+    width: 50%;
+    height: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+#motoor5{
+    -wedkit-appearance: none;
+    width: 50%;
+    height: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+#motoor6{
+    -wedkit-appearance: none;
+    width: 50%;
+    height: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+#slider::-webkit-slider-thumb{
+  -webkot-appearance: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+   
+}
+
+.container{
+    display:block;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align:left;
+    min-height: 15vh;
+    padding: 2em;
+  
+}
+.but-1{
+    width: 80px;
+    height:25px;
+    border: none;
+    color: white;
+    
+    border-radius: 9px;
+    box-shadow: inset 0 0 0 0 #3399ff;
+  
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg ,#e6e6ff, #3333ff );
+}
+ 
+
+.but-1:hover{
+    transform: scale(1.09);
+            background:linear-gradient(to right, rgba(255,0,0,0), rgba(204,255,102));
+            box-shadow: 0 5px 10px rgba(0 , 0, 0, 0.15);
+}
+
+.but-2{
+    width: 80px;
+    height:25px;
+    border: none;
+    color: white;
+  
+    border-radius: 9px;
+    box-shadow: inset 0 0 0 0 #3399ff;
+   
+    font-size: 1rem;
+    outline: none;
+     transition: all 0.3s ease;
+    background: linear-gradient(135deg ,#e6e6ff, #3333ff );
+}
+.but-2:hover{
+   transform: scale(1.09);
+            background:linear-gradient(to right, rgba(255,0,0,0), rgba(204,255,102));
+            box-shadow: 0 5px 10px rgba(0 , 0, 0, 0.15);
+}

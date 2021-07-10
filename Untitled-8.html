@@ -1,0 +1,125 @@
+<html>
+<head>
+    <title>لوحة التحكم بالروبوت</title>
+    <link rel="stylesheet" href="Untitled-7.css">
+    </head><body>
+            <div class="container">
+    <nav class="navbar">
+       <ul class="navbar-list">
+            <li class="navbar-item">
+            <a class="navbar-link" href="%D9%84%D9%88%D8%AD%D8%A9%20%D8%AA%D8%AD%D9%83%D9%85%20%D8%A8%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%88%D8%AA.html">| الرئيسية</a></li>
+        <li class="navbar-item">
+            <a class="navbar-link" href="Untitled-5.html">| التحكم بالذراع</a></li>
+           <li class="navbar-item">
+           <a class="navbar-link" href="Untitled-4.html">| التحكم بالقاعدة</a>
+              </li>
+           <li class="navbar-item">
+           <a class="navbar-link" href="Untitled-8.html">|   التحكم بالقاعدة والذراع</a>
+              </li>
+        
+        </ul> </nav></div>
+    <form action="control a arm.php" method="post"> 
+    
+      <div class="main"> <h>المحرك الاول
+            <input type="range" min="0" max="180" value="150" id="slider">
+            
+            </h> <span id="mot1"></span> 
+        </div>
+        <div class="motor2"> <h> المحرك الثاني
+        <input type="range" min="0" max="180" value="120" id="motoor2">
+          </h> <label> <span id="mot2"></span></label> </div>
+          <div class="motor3"> <h> المحرك الثالث
+            <input type="range" min="0" max="180" value="30" id="motoor3">
+            </h> <span id="mot3"></span> 
+        </div>
+        <div class="motor4"> <h> المحرك الرابع
+        <input type="range" min="0" max="180" value="50" id="motoor4">
+            </h> <span id="mot4"></span> 
+        </div>
+          <div class="motor5"> <h> المحرك الخامس
+            <input type="range" min="0" max="180" value="20" id="motoor5">
+            </h> <span id="mot5"></span> 
+        </div>
+        <div class="motor6"> <h> المحرك السادس
+        <input type="range" min="0" max="180" value="80" id="motoor6">
+            </h><span id="mot6"></span> 
+           
+       
+        </div> </form>
+        <script>
+            
+            var slider1 = document.getElementById("slider");
+var output1 = document.getElementById("mot1");
+output1.innerHTML = slider1.value;
+
+slider1.oninput = function() {
+  output1.innerHTML = this.value;
+}
+   
+            var motoor2 = document.getElementById("motoor2");
+var output2 = document.getElementById("mot2");
+output2.innerHTML = motoor2.value;
+
+motoor2.oninput = function() {
+  output2.innerHTML = this.value;
+}
+             var motoor3 = document.getElementById("motoor3");
+var output3 = document.getElementById("mot3");
+output3.innerHTML = motoor3.value;
+
+motoor3.oninput = function() {
+  output3.innerHTML = this.value;
+}
+             var motoor4 = document.getElementById("motoor4");
+var output4 = document.getElementById("mot4");
+output4.innerHTML = motoor4.value;
+
+motoor4.oninput = function() {
+  output4.innerHTML = this.value;
+}
+             var motoor5 = document.getElementById("motoor5");
+var output5 = document.getElementById("mot5");
+output5.innerHTML = motoor5.value;
+
+motoor5.oninput = function() {
+  output5.innerHTML = this.value;
+}
+             var motoor6 = document.getElementById("motoor6");
+var output6 = document.getElementById("mot6");
+output6.innerHTML = motoor6.value;
+
+motoor6.oninput = function() {
+  output6.innerHTML = this.value;
+}
+
+        </script>
+    <form method="get">
+    <div class="container">
+        <button class="but-1">حفظ</button>
+            <button class="but-2">تشغيل</button>
+            
+        </div>
+    
+               
+
+            <input type="submit" value="الأمام" name="forward" class="button">
+  
+          
+        
+      <input type="submit" value="اليمين" name="right" class="button">  
+           
+     <input type="submit" value="اليسار" name="left" class="button">
+      
+        
+     <p> <input type="submit" value="رجوع" name="back" class="button">  
+      
+      <input type="submit" value="قف" name="stop" class="button"> 
+    </p>
+    
+      
+    </form>
+            
+    
+    </body>
+    
+</html>

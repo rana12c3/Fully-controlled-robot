@@ -1,0 +1,81 @@
+    *{
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        body{
+            
+               background-image:url(https://www.wallpapertip.com/wmimgs/23-232108_eset.jpg);
+    background-size: 100% 100%;
+
+} 
+  
+.navbar{
+    background-color:none;
+    direction:rtl;
+    
+
+}
+.navbar-list{
+    list-style: none;
+   
+}
+.navbar-item{
+    display: inline-block;
+    width: 8rem;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    transition: 0.3s;
+    
+}
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+    
+}
+.navbar-item:hover{
+    background-color:#3366ff;
+    transition: 0.3s;
+         width:200px;
+  margin: auto;
+  border: 1px solid #3366ff;
+}
+
+
+.Forwad{
+    text-align:right;
+    margin-top: 50px;
+    transform: translate(5px);
+    padding: 4em;
+}
+.Right{
+    
+    text-align:right;
+}
+.button .submit{
+   border: 1px solid white;
+     width: 25%;
+    border-radius: 11px;
+    background: none;
+    padding: 10px 20px;
+    font-family:monospace;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+     font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg ,#e6e6ff, #3333ff );
+    
+}
+
+        .button .submit:hover{
+            transform: scale(1.09);
+            background:linear-gradient(to right, rgba(255,0,0,0), rgba(255,105,0));
+            box-shadow: 0 5px 10px rgba(0 , 0, 0, 0.15);
+        }

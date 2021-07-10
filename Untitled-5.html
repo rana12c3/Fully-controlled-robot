@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> MOTORS </title>
+        <link rel="stylesheet" href="Untitled-6.css">
+              </head>
+    <body>
+                 <div class="container">
+    <nav class="navbar">
+       <ul class="navbar-list">
+            <li class="navbar-item">
+            <a class="navbar-link" href="%D9%84%D9%88%D8%AD%D8%A9%20%D8%AA%D8%AD%D9%83%D9%85%20%D8%A8%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%88%D8%AA.html">| الرئيسية</a></li>
+        <li class="navbar-item">
+            <a class="navbar-link" href="Untitled-5.html">| التحكم بالذراع</a></li>
+           <li class="navbar-item">
+           <a class="navbar-link" href="Untitled-4.html">| التحكم بالقاعدة</a>
+              </li>
+           <li class="navbar-item">
+           <a class="navbar-link" href="Untitled-8.html">|   التحكم بالقاعدة والذراع</a>
+              </li>
+        
+        </ul> </nav></div>
+        <form action="control a arm.php" method="post"> 
+        <P>لوحة تحكم بالذراع الروبوت</P>
+    
+        <div class="main"> <h>Motor1
+            <input type="range" min="0" max="180" value="0" id="slider">
+            
+            </h> <span id="mot1"></span> 
+        </div>
+        <div class="motor2"> <h> Motor2
+        <input type="range" min="0" max="180" value="0" id="motoor2">
+          </h> <label> <span id="mot2"></span></label> </div>
+          <div class="motor3"> <h> Motor3
+            <input type="range" min="0" max="180" value="0" id="motoor3">
+            </h> <span id="mot3"></span> 
+        </div>
+        <div class="motor4"> <h> Motor4
+        <input type="range" min="0" max="180" value="0" id="motoor4">
+            </h> <span id="mot4"></span> 
+        </div>
+          <div class="motor5"> <h> Motor5
+            <input type="range" min="0" max="180" value="0" id="motoor5">
+            </h> <span id="mot5"></span> 
+        </div>
+        <div class="motor6"> <h> Motor6
+        <input type="range" min="0" max="180" value="0" id="motoor6">
+            </h><span id="mot6"></span> 
+           
+       
+        </div> 
+        <script>
+            
+            var slider1 = document.getElementById("slider");
+var output1 = document.getElementById("mot1");
+output1.innerHTML = slider1.value;
+
+slider1.oninput = function() {
+  output1.innerHTML = this.value;
+}
+   
+            var motoor2 = document.getElementById("motoor2");
+var output2 = document.getElementById("mot2");
+output2.innerHTML = motoor2.value;
+
+motoor2.oninput = function() {
+  output2.innerHTML = this.value;
+}
+             var motoor3 = document.getElementById("motoor3");
+var output3 = document.getElementById("mot3");
+output3.innerHTML = motoor3.value;
+
+motoor3.oninput = function() {
+  output3.innerHTML = this.value;
+}
+             var motoor4 = document.getElementById("motoor4");
+var output4 = document.getElementById("mot4");
+output4.innerHTML = motoor4.value;
+
+motoor4.oninput = function() {
+  output4.innerHTML = this.value;
+}
+             var motoor5 = document.getElementById("motoor5");
+var output5 = document.getElementById("mot5");
+output5.innerHTML = motoor5.value;
+
+motoor5.oninput = function() {
+  output5.innerHTML = this.value;
+}
+             var motoor6 = document.getElementById("motoor6");
+var output6 = document.getElementById("mot6");
+output6.innerHTML = motoor6.value;
+
+motoor6.oninput = function() {
+  output6.innerHTML = this.value;
+}
+
+        </script>
+            
+        <div class="container">
+        <button class="but-1">حفظ</button>
+            <button class="but-2">تشغيل</button>
+            
+        </div>
+            
+        </form>
+        
+    </body>
+</html>
